@@ -1,0 +1,105 @@
+/* style.css - Student Information Portal */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366; /* Wits Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #00509d;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #ffcc00;
+    color: #003366;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #003366;
+}
+
+hr {
+    border: 1px solid #eee;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ul, ol {
+    background: #fafafa;
+    padding: 15px 30px;
+    border-left: 4px solid #00509d;
+}
+
+img {
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+}
